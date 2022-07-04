@@ -1,0 +1,139 @@
+*,
+*,::before,
+*::after{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,body{
+    height: 100px;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    line-height: 1;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.wrapper{
+    min-height:100%;
+}
+
+.block{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    perspective: 400px;
+}
+.block1{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.block2{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.block3{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.block4{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.block5{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    perspective: 400px;
+}
+.block6{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    perspective: 400px;
+}
+
+
+.block__item{
+    content: url("lamborgini.png");
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+
+    transform: translate(50px, 50px);
+}
+
+.block__item1 {
+    content: url("lamborgini.png");
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+.block__item2 {
+    content: url("lamborgini.png");
+    width: 200px;
+    height: 200px;
+    margin: 20px;   
+}
+
+.block__item3 {
+    content: url("lamborgini.png");
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transform: rotate(45deg); 
+}
+
+.block__item4 {
+    content: url("lamborgini.png");
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transform: skew(-5deg, 50deg);
+}
+
+.block__item5 {
+    content: url("lamborgini.png");
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transform: rotateX(45deg);
+}
+
+.block__item6 {
+    content: url("lamborgini.png");
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transform: rotate3d(40, 40, 40,45deg);
+}
+    /* 1)transform: translate(50px, 50px); */
+    /* 2)transform: translateY(50%); */
+    /* 3) transform: rotateX(45deg);  */
+    /* 3) transform: rotateY(45deg);  */
+    /* 4) transform: rotate(360deg);  */
+    /* 5)transform: skew(-5deg, 50deg); */
+    /*.block { perspective: 400px;}
+    .block__item {transform: rotateX(45deg);}
+    
+    
+    Если не будет перспективы, то все 3д формы не смогут себя нормально показать*/
+    /*7) transform: rotate3d(40, 40, 40, 45deg);*/
